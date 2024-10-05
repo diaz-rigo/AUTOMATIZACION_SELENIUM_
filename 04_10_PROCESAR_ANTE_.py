@@ -14,12 +14,11 @@ import time
 
 
 
+
 ENTRADA_CONSTANTE = '53005' #jrodriguez_scontino@ifreh.gob.mx
 
-RUTA_CERTIFICADO_CER = r'C:\Users\Arturo\Documents\Python Script\firmas\MOPJ7808311Y2.cer'
-RUTA_CERTIFICADO_KEY = r'C:\Users\Arturo\Documents\Python Script\firmas\MOPJ7808311.key'
-
-
+RUTA_CERTIFICADO_CER = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.cer'
+RUTA_CERTIFICADO_KEY = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.key'
 
 
 # Configuración de constantes
@@ -109,7 +108,7 @@ def iniciar_sesion(driver, correo, password):
             EC.visibility_of_element_located((By.ID, 'username'))
         )
 
-        driver.find_element(By.ID, 'username').send_keys(CORREO_CONSTANTE)
+        driver.find_element(By.ID, 'username').send_keys(correo)
         driver.find_element(By.ID, 'password').send_keys('admin')
         print("Credenciales ingresadas nuevamente")
 
@@ -161,7 +160,7 @@ def realizar_acciones(driver):
 
         # Localizar la tabla y las filas dentro de ella
         # print(f"Procesando fila {index}...")
-        tabla = WebDriverWait(driver, 10).until(
+        tabla = WebDriverWait(driver, 120).until(
             EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))
         )        
         filas = tabla.find_elements(By.XPATH, './tbody/tr')
@@ -174,7 +173,7 @@ def realizar_acciones(driver):
             while intentos < MAX_INTENTOS:
                 try:
                     print(f"Procesando fila {index}...")
-                    tabla = WebDriverWait(driver, 10).until(
+                    tabla = WebDriverWait(driver, 120).until(
             EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))
         )
                     # Reobtener las filas para evitar referencias obsoletas
@@ -467,7 +466,7 @@ def realizar_acciones(driver):
                         password_input = WebDriverWait(driver, 30).until(
                             EC.presence_of_element_located((By.XPATH, '//*[@id="password"]'))
                         )
-                        password_input.send_keys('@SContino79@')  # Ingresar la contraseña
+                        password_input.send_keys('SContino79@')  # Ingresar la contraseña
                         time.sleep(3)
                         # Clic en el botón para firmar
                         boton_firmar = WebDriverWait(driver, 30).until(
@@ -530,4 +529,4 @@ if __name__ == "__main__":
         )
         boton_cerrar_sesion.click()
         print("Se hizo clic en el botón de cerrar sesión")
-    driver.quit()
+    # driver.quit()
