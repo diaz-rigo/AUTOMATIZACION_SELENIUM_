@@ -6,163 +6,37 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException, TimeoutException,StaleElementReferenceException
-from selenium.webdriver.common.alert import Alert
 
 from webdriver_manager.firefox import GeckoDriverManager
 import time
 
 
+ENTRADA_CONSTANTE = '52931'
+
+RUTA_CERTIFICADO_CER = r'C:\Users\jjgon\Documents\Python Scripts\Script_2\firmas\MOPJ7808311Y2.cer'
+RUTA_CERTIFICADO_KEY = r'C:\Users\jjgon\Documents\Python Scripts\Script_2\firmas\MOPJ7808311Y2.key'
 
 
-ENTRADA_CONSTANTE = '53005' #jrodriguez_scontino@ifreh.gob.mx
-
-RUTA_CERTIFICADO_CER = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.cer'
-RUTA_CERTIFICADO_KEY = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.key'
 
 
-# Configuración de constantes
-CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE
-
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx"
-LOGIN_URL = "https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login"
+CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE
+YEAR = ''
+TOMO = ''
+LIBRO = ''
+VOLUMEN = ''
+INSCRIPCION = ''
+RANGO_CARGA_INICIAL = 35051 # 346
+RANGO_CARGA_FINALIZAR = 35343
 MAX_INTENTOS = 4
-
-# Función para cargar y filtrar datos del archivo Excel
-def cargar_datos_entrada(entrada):
-    response = requests.get(SHEET_URL)
-    if response.status_code == 200:
-        excel_data = response.content
-        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')
-        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()
-        filtered_df = df[df['ENTRADA'] == entrada]
-        if not filtered_df.empty:
-
-            if not filtered_df.empty:
-                # Almacenar el primer valor de la columna de correos
-                CORREO_CONSTANTE = str(filtered_df['FOLIO REAL.1'].values[0])
-
-                print(f"El primer correo es: {CORREO_CONSTANTE}")
-            else:
-                print(f"No se encontraron filas con 'ENTRADA' igual a {ENTRADA_CONSTANTE}")
-
-
-
-            print(f"Correo encontrado: {CORREO_CONSTANTE}")
-            return CORREO_CONSTANTE
-        else:
-            print(f"No se encontraron filas con 'ENTRADA' igual a {entrada}")
-            return None
-    else:
-        print(f"Error al descargar el archivo: {response.status_code}")
-        return None
-
-# Función para iniciar sesión en la página web
-def iniciar_sesion(driver, correo, password):
-    driver.get(LOGIN_URL)
-    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))
-    driver.find_element(By.ID, 'username').send_keys(correo)
-    driver.find_element(By.ID, 'password').send_keys(password)
-    time.sleep(3)
-    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()
-    print("Inicio de sesión realizado con éxito")
-
-
-    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo
-    try:
-        unlock_link = WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located(
-                (By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[2]/div/a'))
-        )
-        # Si aparece el enlace, hacer clic
-        unlock_link.click()
-        print("Enlace de desbloqueo encontrado y clickeado")
-
-        # Esperar a que aparezca el campo de la contraseña
-        WebDriverWait(driver, 10).until(
-            EC.visibility_of_element_located(
-                (By.XPATH, '//*[@id="password"]'))
-        )
-
-        # Ingresar la contraseña "admin"
-        driver.find_element(
-            By.XPATH, '//*[@id="password"]').send_keys('admin')
-        print("Contraseña 'admin' ingresada")
-
-        # Esperar hasta que el botón de desbloqueo esté visible y luego hacer clic
-        unlock_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-user-unlock/div/div/div[2]/form/button'))
-        )
-        unlock_button.click()
-        print("Botón de desbloqueo presionado")
-
-        # Esperar hasta que el enlace esté visible y luego hacer clic
-        link = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-user-unlock/div/div/div/div/a'))
-        )
-        link.click()
-        print("Enlace clickeado")
-
-        # Volver a llenar las credenciales e intentar iniciar sesión de nuevo
-        WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.ID, 'username'))
-        )
-
-        driver.find_element(By.ID, 'username').send_keys(correo)
-        driver.find_element(By.ID, 'password').send_keys('admin')
-        print("Credenciales ingresadas nuevamente")
-
-        driver.find_element(
-            By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()
-        print("Botón de inicio de sesión presionado nuevamente")
-
-    except Exception as e:
-        print("No se encontró el enlace de desbloqueo o hubo otro error:", str(e))
-
-
-
-
-    time.sleep(5)        # Espera y clic en el primer elemento
-    primer_elemento = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab/div/div/div/div/div[1]'))
-        )
-    primer_elemento.click()
-    print("Primer clic realizado")
-    time.sleep(3)
-
-        # Espera y clic en el segundo elemento
-    segundo_elemento = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[2]/div/menu/div/div[2]/div/div/div[2]'))
-        )
-    segundo_elemento.click()
-    print("Segundo clic realizado")
-    time.sleep(3)
-
-        # Ingresar valor de búsqueda y hacer clic en el botón de acción
-    search_input = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/bandeja/div/div/p-datatable/div/div[2]/table/thead/tr/th[3]/input'))
-        )
-    search_input.send_keys(ENTRADA_CONSTANTE)
-    print(f"Texto '{ENTRADA_CONSTANTE}' ingresado en el campo de búsqueda")
-    time.sleep(3)
-
-    action_button = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/bandeja/div/div/p-datatable/div/div[2]/table/tbody/tr/td[8]/span/button'))
-        )
-    driver.execute_script("arguments[0].click();", action_button)
-    print("Botón de acción presionado")
-    time.sleep(3)
 
 # Función para realizar acciones posteriores al inicio de sesión
 def realizar_acciones(driver):
     try:
 
-
         # Localizar la tabla y las filas dentro de ella
-        # print(f"Procesando fila {index}...")
-        tabla = WebDriverWait(driver, 120).until(
-            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))
-        )        
+        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')
         filas = tabla.find_elements(By.XPATH, './tbody/tr')
         cantidad_filas = len(filas)
         print(f"Cantidad de filas en la tabla: {cantidad_filas}")
@@ -173,7 +47,7 @@ def realizar_acciones(driver):
             while intentos < MAX_INTENTOS:
                 try:
                     print(f"Procesando fila {index}...")
-                    tabla = WebDriverWait(driver, 120).until(
+                    tabla = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))
         )
                     # Reobtener las filas para evitar referencias obsoletas
@@ -216,7 +90,7 @@ def realizar_acciones(driver):
                         )
                         input_na1.send_keys('NA')
                         print("Campo de texto 1 con valor 'NA'")
-                      
+                        time.sleep(3)
 
                         # Seleccionar la opción 42 en el tercer select
                         select_opcion42 = WebDriverWait(driver, 30).until(
@@ -224,7 +98,7 @@ def realizar_acciones(driver):
                         )
                         select_opcion42.click()
                         print("Opción 42 seleccionada")
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         # Ingresar 'NA' en el segundo campo de texto
                         input_na2 = WebDriverWait(driver, 30).until(
@@ -232,7 +106,7 @@ def realizar_acciones(driver):
                         )
                         input_na2.send_keys('NA')
                         print("Campo de texto 2 con valor 'NA'")
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         #* //$$$!!!!///////////*********************   ···$$$$$$$$$$$$$$$$$$$
                 
@@ -244,7 +118,8 @@ def realizar_acciones(driver):
                         )
                         input_na3.send_keys('NA')
                         print("Campo de texto 3 con valor 'NA'")
-                    
+                        time.sleep(3)
+
                         # Seleccionar la opción 48 del cuarto select
                         select_opcion48 = WebDriverWait(driver, 30).until(
                             EC.element_to_be_clickable(
@@ -252,7 +127,7 @@ def realizar_acciones(driver):
                         )
                         select_opcion48.click()
                         print("Opción 48 seleccionada")
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         # Ingresar valor '0' en el cuarto campo de texto
                         input_0 = WebDriverWait(driver, 30).until(
@@ -279,7 +154,7 @@ def realizar_acciones(driver):
                         )
                         select_opcion10.click()
                         print("Opción 10 del select final seleccionada")
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         # Clic PARA AGREGAR PERSONA
                         # Clic para agregar persona
@@ -291,7 +166,7 @@ def realizar_acciones(driver):
                         print("Se hizo clic en el botón para agregar persona")
 
                         # Espera para permitir que el formulario cargue
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         # Llenar el campo th[3] con 'NA'
                         campo_th3 = driver.find_element(
@@ -322,7 +197,7 @@ def realizar_acciones(driver):
                             By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/folio-form/div/div[2]/div/div/table/tbody/tr/td/predio-detalle-form-content/div/div/form/titulares-iniciales-content/div/div/form/div/div[2]/div/table/tbody/tr/th[7]/input')
                         campo_th7.send_keys('100')
                         print("Campo th[7] llenado con 100")
-                        
+                        time.sleep(3)
                     # Dar clic en el botón final de enviar formulario
                         boton_final = WebDriverWait(driver, 30).until(
                             EC.element_to_be_clickable(
@@ -421,7 +296,7 @@ def realizar_acciones(driver):
                         # !$$$ !!!!/////// ICONO DE DISCO GUARDAR 
                         
                         # Espera un poco después de guardar
-                        # time.sleep(3)
+                        # time.sleep(5)
 
                         # !$$$ !!!!/////// Clic en el icono de disco guardar
                         icono_disco_guardar = WebDriverWait(driver, 30).until(
@@ -454,12 +329,15 @@ def realizar_acciones(driver):
                         certificado_input = WebDriverWait(driver, 30).until(
                             EC.presence_of_element_located((By.XPATH, '//*[@id="certificate_file"]'))
                         )
+                         #  certificado_input.send_keys(r'C:\MyScrips\firmas\MOPJ7808311Y2.cer')
+                         #  certificado_input.send_keys(r'C:\MyScrips\firmas\MOPJ7808311Y2.cer')
                         certificado_input.send_keys(RUTA_CERTIFICADO_CER)
 
                         # Subir el archivo .key
                         llave_input = WebDriverWait(driver, 30).until(
                             EC.presence_of_element_located((By.XPATH, '//*[@id="privkey_file"]'))
                         )
+                          # llave_input.send_keys(r'C:\MyScrips\firmas\MOPJ7808311.key')
                         llave_input.send_keys(RUTA_CERTIFICADO_KEY)
 
                         # Ingresar la contraseña
@@ -467,14 +345,14 @@ def realizar_acciones(driver):
                             EC.presence_of_element_located((By.XPATH, '//*[@id="password"]'))
                         )
                         password_input.send_keys('SContino79@')  # Ingresar la contraseña
-                        time.sleep(3)
+                        time.sleep(6)
                         # Clic en el botón para firmar
                         boton_firmar = WebDriverWait(driver, 30).until(
                             EC.element_to_be_clickable(
                                 (By.XPATH, '/html/body/ngb-modal-window/div/div/firma-content/div[3]/button[1]')
                             )
                         )
-                        time.sleep(3)
+                        time.sleep(5)
                         # !$$$ !!!!/////// FIRMANDO -...........
                         boton_firmar.click()
 
@@ -486,7 +364,7 @@ def realizar_acciones(driver):
                         )
                         time.sleep(3)  # Agregar un pequeño retraso adicional si es necesario
                         nuevo_boton_FINALIZAR.click()
-                        time.sleep(3)  # Agregar un pequeño retraso adicional si es necesario
+                        time.sleep(5)  # Agregar un pequeño retraso adicional si es necesario
 
 
                     else:
@@ -510,23 +388,270 @@ def realizar_acciones(driver):
                 print(f"No se pudo procesar la fila {index} después de {MAX_INTENTOS} intentos, pasando a la siguiente fila.")
 
         print("Proceso completado.")
-        realizar_acciones(driver)
+    
 
     except TimeoutException as e:
         print(f"Error: {e}")
+# Paso 1: Descargar el archivo de Google Sheets en formato Excel
 
-# Función principal
-if __name__ == "__main__":
-    driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
-    correo = cargar_datos_entrada(ENTRADA_CONSTANTE)
-   
-    if correo:
-        iniciar_sesion(driver, correo, "admin")  # Reemplaza con tu contraseña real
-        realizar_acciones(driver)
-      # Cerrar sesión
+def download_file():
+    sheet_url = "https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx"
+    response = requests.get(sheet_url)
+
+    if response.status_code == 200:
+        excel_data = response.content
+        # Leer el archivo Excel usando Pandas
+        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')
+        print("Archivo Excel cargado con éxito")
+
+        # Asegurarnos de que la columna 'ENTRADA' sea de tipo string
+        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()
+
+        # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'
+        filtered_df = df[df['ENTRADA'] == ENTRADA_CONSTANTE]
+        print(filtered_df.columns)
+        print("Filtrado de filas donde 'ENTRADA' es:", ENTRADA_CONSTANTE)
+        print(filtered_df)
+
+        if not filtered_df.empty:
+            # Almacenar el primer valor de la columna de correos
+            CORREO_CONSTANTE = str(filtered_df['FOLIO REAL.1'].values[0])
+
+            print(f"El primer correo es: {CORREO_CONSTANTE}")
+        else:
+            print(f"No se encontraron filas con 'ENTRADA' igual a {ENTRADA_CONSTANTE}")
+
+    else:
+        print(f"Error al descargar el archivo: {response.status_code}")
+
+    try:
+        # Inicia el navegador y accede a la página de login
+        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+        driver.get("https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login")
+        print("Página abierta con éxito")
+
+        # Esperar hasta que el campo de Username sea visible (máx 30 segundos)
+        WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))
+
+        # Ingresar correo y contraseña
+        driver.find_element(By.ID, 'username').send_keys(CORREO_CONSTANTE)
+        driver.find_element(By.ID, 'password').send_keys('admin')
+
+        # Iniciar sesión
+        driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()
+        print("Credenciales ingresadas y botón de inicio de sesión presionado")
+        time.sleep(3) 
+        try:
+            unlock_link = WebDriverWait(driver, 10).until(
+                EC.visibility_of_element_located(
+                    (By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[2]/div/a'))
+            )
+            # Si aparece el enlace, hacer clic
+            unlock_link.click()
+            print("Enlace de desbloqueo encontrado y clickeado")
+
+            # Esperar a que aparezca el campo de la contraseña
+            WebDriverWait(driver, 10).until(
+                EC.visibility_of_element_located(
+                    (By.XPATH, '//*[@id="password"]'))
+            )
+
+            # Ingresar la contraseña "admin"
+            driver.find_element(
+                By.XPATH, '//*[@id="password"]').send_keys('admin')
+            print("Contraseña 'admin' ingresada")
+
+            # Esperar hasta que el botón de desbloqueo esté visible y luego hacer clic
+            unlock_button = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, '/html/body/jhi-main/div/div/jhi-user-unlock/div/div/div[2]/form/button'))
+            )
+            unlock_button.click()
+            print("Botón de desbloqueo presionado")
+
+            # Esperar hasta que el enlace esté visible y luego hacer clic
+            link = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, '/html/body/jhi-main/div/div/jhi-user-unlock/div/div/div/div/a'))
+            )
+            link.click()
+            print("Enlace clickeado")
+
+            # Volver a llenar las credenciales e intentar iniciar sesión de nuevo
+            WebDriverWait(driver, 30).until(
+                EC.visibility_of_element_located((By.ID, 'username'))
+            )
+
+            driver.find_element(By.ID, 'username').send_keys(CORREO_CONSTANTE)
+            driver.find_element(By.ID, 'password').send_keys('admin')
+            print("Credenciales ingresadas nuevamente")
+
+            driver.find_element(
+                By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()
+            print("Botón de inicio de sesión presionado nuevamente")
+
+        except Exception as e:
+            print("No se encontró el enlace de desbloqueo o hubo otro error:", str(e))        
+        # Esperar a que la página cargue y hacer clic en elementos
+        WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab/div/div/div/div/div[1]'))).click()
+        print("Primer elemento encontrado y clic realizado")
+
+        time.sleep(3) 
+        # Esperar hasta que el segundo elemento sea visible y hacer clic
+        WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[2]/div/menu/div/div[2]/div/div/div[2]'))).click()
+        print("Segundo elemento encontrado y clic realizado")
+        time.sleep(3) 
+        # Esperar a que la tabla se cargue y buscar ENTRADA
+        WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/bandeja/div/div/p-datatable')))
+        search_input = WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/bandeja/div/div/p-datatable/div/div[2]/table/thead/tr/th[3]/input')))
+        search_input.send_keys(ENTRADA_CONSTANTE)
+        print(f"Texto '{ENTRADA_CONSTANTE}' ingresado en el campo de búsqueda")
+
+        time.sleep(3) 
+        # Esperar que se actualicen los resultados y hacer clic en el botón
+        action_button = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/bandeja/div/div/p-datatable/div/div[2]/table/tbody/tr/td[8]/span/button')))
+        driver.execute_script("arguments[0].click();", action_button)
+
+        # Procesar los datos filtrados
+        start_processing = False
+        for index, row in filtered_df.iterrows():
+            CARGA = row['CARGA']
+            print("carga ingresada ",CARGA)
+            print("*********************************")
+            print("*********************************")
+            print("**    DEBE DE INICALIZAR EN : ", CARGA+1, "    **")
+            print("*********************************")
+            print("*********************************")
+            if CARGA == RANGO_CARGA_INICIAL:
+                start_processing = True
+            # Detener el procesamiento si CARGA alcanza RANGO_CARGA_FINALIZAR
+            if CARGA > RANGO_CARGA_FINALIZAR:
+                print(f"Proceso finalizado al alcanzar CARGA: {CARGA}")
+                boton_cerrar_sesion = WebDriverWait(driver, 30).until(
+                            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/jhi-navbar/div/div/div/div[3]/div/div[2]/a/span'))
+                        )
+                boton_cerrar_sesion.click()
+                break
+            if start_processing:
+                CORREO_CONSTANTE = str(row['FOLIO REAL.1'])
+                YEAR = str(row['AÑO'])
+                TOMO = str(row['TOMO'])
+                LIBRO = str(row['LIBRO'])
+                VOLUMEN = str(row['VOLUMEN'])
+                INSCRIPCION = str(row['INSCRIPCION'])
+                WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[1]/button[7]')))
+                    
+                    # Usar JavaScript para hacer clic en el botón
+                new_button = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[1]/button[7]')
+                driver.execute_script("arguments[0].click();", new_button)
+
+                    # ÇÇÇÇÇÇÇÇÇÇÇÇÇ AQUI ABREB EL MODAL PARA EL A ANTECEDENTE 
+                    # Esperar a que el modal se vuelva visible (máx 30 segundos)
+                WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente')))
+
+                    # Interactuar con el primer dropdown
+                WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[1]/select')))
+                time.sleep(3) 
+                dropdown1 = Select(driver.find_element(By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[1]/select'))
+                dropdown1.select_by_index(1)  # Selecciona la segunda opción (índice 1)
+                print("Primera opción seleccionada en el modal")
+
+                    # Interactuar con el segundo dropdown
+                WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[2]/select')))
+                time.sleep(3) 
+                dropdown2 = Select(driver.find_element(By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[2]/select'))
+                dropdown2.select_by_index(1)  # Selecciona la segunda opción (índice 1)
+                print("Segunda opción seleccionada en el modal")
+
+                    # Interactuar con el tercer dropdown
+                WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[3]/select')))
+                time.sleep(6) 
+                dropdown3 = Select(driver.find_element(By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[3]/select'))
+                dropdown3.select_by_index(2)  # Selecciona la tercera opción (índice 2)
+                    
+                    
+                    
+                    
+                    # &&&---------------------------------------------------------------------------------------------DATA DEL EXCEL 
+                def wait_and_send_keys(driver, xpath, value, description):
+                    try:
+                        WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, xpath)))
+                        input_field = driver.find_element(By.XPATH, xpath)
+                        input_field.send_keys(value)
+                        print(f"Valor {description} '{value}' ingresado correctamente")
+                    except Exception as e:
+                        print(f"Error al ingresar el valor '{description}': {e}")
+
+                    # Ingresar el año
+                wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[1]/div[4]/input', YEAR, "AÑO")
+
+                # Asegúrate de que TOMO no sea '01A' antes de ingresar el valor
+                if TOMO != '01A':
+                    # Ingresar 'TOMO' en el segundo campo de entrada
+                    wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[2]/div[1]/input', TOMO, "TOMO")
+                else:
+                    TOMO='1A'
+                    wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[2]/div[1]/input', TOMO, "TOMO")
+                    print(f"El valor de TOMO ({TOMO}) no es válido. No puede ser '01A'.")
+
+
+                    # Ingresar '777' en el tercer campo de entrada
+                wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[2]/div[2]/input', LIBRO, "LIBRO")
+
+                    # Ingresar '888' en el cuarto campo de entrada
+                wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[2]/div[3]/input', VOLUMEN, "VOLUMEN")
+
+                    # Ingresar '999' en el quinto campo de entrada
+                wait_and_send_keys(driver, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[2]/div/form/div[2]/div[4]/input', INSCRIPCION, "INSCRIPCION")
+
+                    
+                    
+                    
+                    # Hacer clic en el botón
+                try:
+                    time.sleep(5) 
+                    WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[3]/button[1]'))).click()
+
+                    try:
+                        # Si el modal está presente, hacer clic en el segundo botón
+                        modal_present = WebDriverWait(driver, 10).until(EC.presence_of_element_located(
+                            (By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/p-dialog/div/div[2]')))
+
+                        if modal_present:
+                            print("Modal detectado, presionando el segundo botón.")
+                            # WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
+                            #     (By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/div[3]/button[2]'))).click()  ESTA ES EL CANCELAR DEL MODAL  DONDE DA DE ALTA ANTENCEDEMTE
+                            WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
+                                (By.XPATH, '/html/body/ngb-modal-window/div/div/jhi-cyvf-antecedente/p-dialog/div/div[2]/div[2]/button[1]'))).click()
+                            print(
+                                "Segundo botón presionado CANCELAR EN AGREGAR ANTECEDENTE.")
+                    except:
+                        print("Modal no encontrado o no apareció.")
+
+                    print("Botón presionado correctamente.")
+                except Exception as e:
+                        print(f"Error al hacer clic en el botón: {e}")
+                    # Cerrar sesión
+                        boton_cerrar_sesion = WebDriverWait(driver, 30).until(
+                            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/jhi-navbar/div/div/div/div[3]/div/div[2]/a/span'))
+                        )
+                        boton_cerrar_sesion.click()
+                        print("Se hizo clic en el botón de cerrar sesión")
+                        
+                time.sleep(5) 
+                print(f"Correo: {CORREO_CONSTANTE}, Año: {YEAR}, Tomo: {TOMO}, Libro: {LIBRO}, Volumen: {VOLUMEN}, Inscripción: {INSCRIPCION}")
+                realizar_acciones(driver)
+
+    except NoSuchElementException as e:
+        print(f"Error: Elemento no encontrado - {e}")
         boton_cerrar_sesion = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/jhi-navbar/div/div/div/div[3]/div/div[2]/a/span'))
-        )
+                            EC.element_to_be_clickable((By.XPATH, '/html/body/jhi-main/jhi-navbar/div/div/div/div[3]/div/div[2]/a/span'))
+                        )
         boton_cerrar_sesion.click()
-        print("Se hizo clic en el botón de cerrar sesión")
-    # driver.quit()
+    except TimeoutException as e:
+        print(f"Error: Tiempo de espera excedido - {e}")
+    # finally:
+    #     driver.quit()
+
+
+download_file()

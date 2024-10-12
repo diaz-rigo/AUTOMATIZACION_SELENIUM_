@@ -1,0 +1,2880 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.firefox.service",
+        "description": "selenium.webdriver.firefox.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.firefox.service",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "Alert",
+        "importPath": "selenium.webdriver.common.alert",
+        "description": "selenium.webdriver.common.alert",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.alert",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "GeckoDriverManager",
+        "importPath": "webdriver_manager.firefox",
+        "description": "webdriver_manager.firefox",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.firefox",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "PatternFill",
+        "importPath": "openpyxl.styles",
+        "description": "openpyxl.styles",
+        "isExtraImport": true,
+        "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "PatternFill",
+        "importPath": "openpyxl.styles",
+        "description": "openpyxl.styles",
+        "isExtraImport": true,
+        "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52931' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_2",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "ENTRADA_CONSTANTE = '53006' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_3",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52987' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "description": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "04_10_PROCESAR_ANTE__ENTRADA_4",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(\n        EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(\n        By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 120).until(\n            EC.presence_of_element_located(\n                (By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "ENTRADA_CONSTANTE = '53003'  # jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "04_10_SIN-FIRMA_PROCESA",
+        "description": "04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx\nRANGO_CARGA_INICIAL =    0         # 757\nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_INICIAL",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "RANGO_CARGA_INICIAL =    0         # 757\nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_FINALIZAR",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "RANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "TOMO",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "LIBRO",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "VOLUMEN",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "INSCRIPCION",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "INSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "sheet_url",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "08_10_ALTA_ANTECENTE_52916",
+        "description": "08_10_ALTA_ANTECENTE_52916",
+        "peekOfCode": "response = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'\n    filtered_df = df[df['ENTRADA'] == ENTRADA_CONSTANTE]",
+        "detail": "08_10_ALTA_ANTECENTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52910' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52910",
+        "description": "08_10_PROCESAR_ANTE_52910",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "08_10_PROCESAR_ANTE_52910",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52916' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52916",
+        "description": "08_10_PROCESAR_ANTE_52916",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "08_10_PROCESAR_ANTE_52916",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52955' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "08_10_PROCESAR_ANTE_52955",
+        "description": "08_10_PROCESAR_ANTE_52955",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "08_10_PROCESAR_ANTE_52955",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx\nRANGO_CARGA_INICIAL =   0        # 757\nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_INICIAL",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "RANGO_CARGA_INICIAL =   0        # 757\nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_FINALIZAR",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "RANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "TOMO",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "LIBRO",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "VOLUMEN",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "INSCRIPCION",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "INSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "sheet_url",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "09_10_ALTA_ANTECENTE_52931",
+        "description": "09_10_ALTA_ANTECENTE_52931",
+        "peekOfCode": "response = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'\n    filtered_df = df[df['ENTRADA'] == ENTRADA_CONSTANTE]",
+        "detail": "09_10_ALTA_ANTECENTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52931' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52931",
+        "description": "09_10_PROCESAR_ANTE_52931",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "09_10_PROCESAR_ANTE_52931",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_52987",
+        "description": "09_10_PROCESAR_ANTE_52987",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "09_10_PROCESAR_ANTE_52987",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "ENTRADA_CONSTANTE = '53006' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "09_10_PROCESAR_ANTE_53006",
+        "description": "09_10_PROCESAR_ANTE_53006",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "09_10_PROCESAR_ANTE_53006",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_prelacion",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(\n        f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "prelacion_ante_consultar_documento",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(\n        f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_predio",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar algo en la tabla `predio`\n# Función para actualizar el campo 'no_folio' en la tabla `predio`",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_folio",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id)\n                   )  # Ahora pasamos ambos parámetros correctamente\n    conn.commit()\n    print(",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\n# /Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\n# /Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio' y 'indicador_duplicado' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['no_folio']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['indicador_duplicado']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['predio_id']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['nuevo_folio']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])\n        volumen = str(row['VOLUMEN'])",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "wb",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\",\n                        end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\",\n                       end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\",\n                        end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\",\n                       end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "blue_fill",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\",\n                        end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\",\n                       end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "red_fill",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\",\n                       end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "no_folio_column",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS",
+        "description": "UPTADE_FOLIOS",
+        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
+        "detail": "UPTADE_FOLIOS",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_prelacion",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(\n        f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "prelacion_ante_consultar_documento",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(\n        f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_predio",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar algo en la tabla `predio`\n# Función para actualizar el campo 'no_folio' en la tabla `predio`",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_folio",
+        "kind": 2,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id)\n                   )  # Ahora pasamos ambos parámetros correctamente\n    conn.commit()\n    print(",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\n# /Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\n# /Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio' y 'indicador_duplicado' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\n# Procesar las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"  # Inicializar con valor predeterminado",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "df['no_folio']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\n# Procesar las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"  # Inicializar con valor predeterminado\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        # Suponiendo que el ID está en la primera columna",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "df['indicador_duplicado']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "df['indicador_duplicado'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\n# Procesar las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"  # Inicializar con valor predeterminado\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        # Suponiendo que el ID está en la primera columna\n        prelacion_id = prelacion[0][0]",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "df['predio_id']",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\n# Procesar las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"  # Inicializar con valor predeterminado\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        # Suponiendo que el ID está en la primera columna\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])  # Convertir a cadena",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "wb",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# # Crear un relleno de color para los valores encontrados (color azul claro)\n# blue_fill = PatternFill(start_color=\"ADD8E6\",\n#                         end_color=\"ADD8E6\", fill_type=\"solid\")\n# # Crear un relleno de color para los valores no encontrados (color rojo claro)\n# red_fill = PatternFill(start_color=\"FFC7CE\",\n#                        end_color=\"FFC7CE\", fill_type=\"solid\")\n# # Buscar la columna de 'no_folio'\n# no_folio_column = None",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "UPTADE_FOLIOS_VERSION_1",
+        "description": "UPTADE_FOLIOS_VERSION_1",
+        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# # Crear un relleno de color para los valores encontrados (color azul claro)\n# blue_fill = PatternFill(start_color=\"ADD8E6\",\n#                         end_color=\"ADD8E6\", fill_type=\"solid\")\n# # Crear un relleno de color para los valores no encontrados (color rojo claro)\n# red_fill = PatternFill(start_color=\"FFC7CE\",\n#                        end_color=\"FFC7CE\", fill_type=\"solid\")\n# # Buscar la columna de 'no_folio'\n# no_folio_column = None\n# for idx, column in enumerate(ws.iter_cols(1, ws.max_column)):",
+        "detail": "UPTADE_FOLIOS_VERSION_1",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'\n        for index in range(1, cantidad_filas + 1):\n            intentos = 0",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "download_file",
+        "kind": 2,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "def download_file():\n    sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\n    response = requests.get(sheet_url)\n    if response.status_code == 200:\n        excel_data = response.content\n        # Leer el archivo Excel usando Pandas\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        print(\"Archivo Excel cargado con éxito\")\n        # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52931'\nRUTA_CERTIFICADO_CER = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "TOMO",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "LIBRO",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "VOLUMEN",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "INSCRIPCION",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "INSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_INICIAL",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "RANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_FINALIZAR",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "RANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "___ALTA_&_PROCESA___final",
+        "description": "___ALTA_&_PROCESA___final",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'",
+        "detail": "___ALTA_&_PROCESA___final",
+        "documentation": {}
+    }
+]

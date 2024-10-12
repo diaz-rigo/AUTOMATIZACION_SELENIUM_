@@ -10,9 +10,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from webdriver_manager.firefox import GeckoDriverManager
 import time
-ENTRADA_CONSTANTE = '53005' #jrodriguez_scontino@ifreh.gob.mx
-RANGO_CARGA_INICIAL = 18558 # 757
-RANGO_CARGA_FINALIZAR =  18711
+ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx
+RANGO_CARGA_INICIAL =    0         # 757
+RANGO_CARGA_FINALIZAR =  0
 
 
 CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE
@@ -146,7 +146,12 @@ try:
     start_processing = False
     for index, row in filtered_df.iterrows():
         CARGA = row['CARGA']
-        print("CARGA  agregando .....",CARGA)
+        print("carga ingresada ",CARGA)
+        print("*********************************")
+        print("*********************************")
+        print("**    DEBE DE INICALIZAR EN : ", CARGA+1, "    **")
+        print("*********************************")
+        print("*********************************")
         if CARGA == RANGO_CARGA_INICIAL:
             start_processing = True
           # Detener el procesamiento si CARGA alcanza RANGO_CARGA_FINALIZAR
