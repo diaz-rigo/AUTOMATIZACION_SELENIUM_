@@ -10,8 +10,10 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from webdriver_manager.firefox import GeckoDriverManager
 import time
+
+
 ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx
-RANGO_CARGA_INICIAL =    0         # 757
+RANGO_CARGA_INICIAL =    0      
 RANGO_CARGA_FINALIZAR =  0
 
 

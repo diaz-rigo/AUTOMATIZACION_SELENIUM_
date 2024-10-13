@@ -13,7 +13,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 import time
 
 
-ENTRADA_CONSTANTE = '53006' #jrodriguez_scontino@ifreh.gob.mx
+ENTRADA_CONSTANTE = '52994' #jrodriguez_scontino@ifreh.gob.mx
 
 RUTA_CERTIFICADO_CER = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.cer'
 RUTA_CERTIFICADO_KEY = r'C:\Users\rigoberto diaz\OneDrive\Documentos\SCRIP_\CRIPS__\firmas\MOPJ7808311Y2.key'
