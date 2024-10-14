@@ -84,6 +84,22 @@
         "documentation": {}
     },
     {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -499,6 +515,22 @@
         "isExtraImport": true,
         "importPath": "psycopg2",
         "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "sql",
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "isExtraImport": true,
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "sql",
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "isExtraImport": true,
         "detail": "psycopg2",
         "documentation": {}
     },
@@ -966,6 +998,96 @@
         "description": "09_10_PROCESAR_ANTE_52994",
         "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
         "detail": "09_10_PROCESAR_ANTE_52994",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_antecedente",
+        "kind": 2,
+        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
+        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_",
+        "kind": 5,
+        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
+        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_antecedente",
+        "kind": 2,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
+        "detail": "UPTADE_DUPLICADOS",
         "documentation": {}
     },
     {
