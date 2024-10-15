@@ -92,14 +92,6 @@
         "documentation": {}
     },
     {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
-        "documentation": {}
-    },
-    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -527,11 +519,11 @@
         "documentation": {}
     },
     {
-        "label": "sql",
-        "importPath": "psycopg2",
-        "description": "psycopg2",
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
         "isExtraImport": true,
-        "detail": "psycopg2",
+        "detail": "openpyxl",
         "documentation": {}
     },
     {
@@ -548,6 +540,22 @@
         "description": "openpyxl.styles",
         "isExtraImport": true,
         "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "PatternFill",
+        "importPath": "openpyxl.styles",
+        "description": "openpyxl.styles",
+        "isExtraImport": true,
+        "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "files",
+        "importPath": "google.colab",
+        "description": "google.colab",
+        "isExtraImport": true,
+        "detail": "google.colab",
         "documentation": {}
     },
     {
@@ -1001,291 +1009,597 @@
         "documentation": {}
     },
     {
-        "label": "obtener_antecedente",
-        "kind": 2,
-        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
-        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_",
-        "kind": 5,
-        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
-        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "obtener_antecedente",
-        "kind": 2,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_FILTRO",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_FILTRO",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
         "label": "consultar_prelacion",
         "kind": 2,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "prelacion_ante_consultar_documento",
         "kind": 2,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "consultar_predio",
         "kind": 2,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "actualizar_folio",
         "kind": 2,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "ENTRADA_FILTRO",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "RANGO_INICIO",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "RANGO_FIN",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "conn",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "cursor",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "file_path",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df_filtrado",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df['no_folio']",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df['indicador_duplicado']",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df['cantidad_duplicados']",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df['predio_id']",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "df['nuevo_folio']",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "wb",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "ws",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "blue_fill",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "red_fill",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
         "documentation": {}
     },
     {
         "label": "no_folio_column",
         "kind": 5,
-        "importPath": "UPTADE_FOLIOS",
-        "description": "UPTADE_FOLIOS",
+        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
         "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
-        "detail": "UPTADE_FOLIOS",
+        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded",
+        "kind": 5,
+        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "uploaded = files.upload()\n# Seleccionar el archivo subido\nfile_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)",
+        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "file_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()",
+        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]",
+        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "output_folder",
+        "kind": 5,
+        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "output_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')",
+        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "usuarios",
+        "kind": 5,
+        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "usuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')\n    writer = pd.ExcelWriter(output_file, engine='xlsxwriter')\n    # Filtrar por cada entrada y crear una hoja por cada entrada\n    entradas = df_usuario['ENTRADA'].unique()\n    for entrada in entradas:",
+        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_antecedente",
+        "kind": 2,
+        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
+        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_",
+        "kind": 5,
+        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
+        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "cursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "datos_anteriores",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "datos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "datos_actualizados",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "datos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero\n    INSCRIPCION = row['INSCRIPCION']  # Columna 'INSCRIPCION'",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_anteriores",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_anteriores = pd.DataFrame(datos_anteriores)\ndf_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_actualizados",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "output_file_path",
+        "kind": 5,
+        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "output_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
+        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS copy",
+        "description": "UPTADE_DUPLICADOS copy",
+        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
+        "detail": "UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_prelacion",
+        "kind": 2,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "prelacion_ante_consultar_documento",
+        "kind": 2,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_predio",
+        "kind": 2,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_folio",
+        "kind": 2,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['no_folio']",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['indicador_duplicado']",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['cantidad_duplicados']",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['predio_id']",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['nuevo_folio']",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "wb",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "blue_fill",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "red_fill",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
+        "detail": "UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "no_folio_column",
+        "kind": 5,
+        "importPath": "UPTADE_DUPLICADOS",
+        "description": "UPTADE_DUPLICADOS",
+        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
+        "detail": "UPTADE_DUPLICADOS",
         "documentation": {}
     },
     {
