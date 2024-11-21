@@ -1,54 +1,11 @@
 [
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
-        "isExtraImport": true,
-        "detail": "__future__",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "site",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "site",
-        "description": "site",
-        "detail": "site",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
         "documentation": {}
     },
     {
@@ -133,22 +90,6 @@
         "documentation": {}
     },
     {
-        "label": "webdriver",
-        "importPath": "selenium",
-        "description": "selenium",
-        "isExtraImport": true,
-        "detail": "selenium",
-        "documentation": {}
-    },
-    {
-        "label": "By",
-        "importPath": "selenium.webdriver.common.by",
-        "description": "selenium.webdriver.common.by",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.common.by",
-        "documentation": {}
-    },
-    {
         "label": "By",
         "importPath": "selenium.webdriver.common.by",
         "description": "selenium.webdriver.common.by",
@@ -205,19 +146,11 @@
         "documentation": {}
     },
     {
-        "label": "Service",
-        "importPath": "selenium.webdriver.firefox.service",
-        "description": "selenium.webdriver.firefox.service",
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
         "isExtraImport": true,
-        "detail": "selenium.webdriver.firefox.service",
-        "documentation": {}
-    },
-    {
-        "label": "Service",
-        "importPath": "selenium.webdriver.firefox.service",
-        "description": "selenium.webdriver.firefox.service",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.firefox.service",
+        "detail": "selenium.webdriver.support.ui",
         "documentation": {}
     },
     {
@@ -238,22 +171,6 @@
     },
     {
         "label": "Select",
-        "importPath": "selenium.webdriver.support.ui",
-        "description": "selenium.webdriver.support.ui",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.support.ui",
-        "documentation": {}
-    },
-    {
-        "label": "WebDriverWait",
-        "importPath": "selenium.webdriver.support.ui",
-        "description": "selenium.webdriver.support.ui",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.support.ui",
-        "documentation": {}
-    },
-    {
-        "label": "WebDriverWait",
         "importPath": "selenium.webdriver.support.ui",
         "description": "selenium.webdriver.support.ui",
         "isExtraImport": true,
@@ -309,14 +226,6 @@
         "documentation": {}
     },
     {
-        "label": "expected_conditions",
-        "importPath": "selenium.webdriver.support",
-        "description": "selenium.webdriver.support",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.support",
-        "documentation": {}
-    },
-    {
         "label": "NoSuchElementException",
         "importPath": "selenium.common.exceptions",
         "description": "selenium.common.exceptions",
@@ -334,22 +243,6 @@
     },
     {
         "label": "StaleElementReferenceException",
-        "importPath": "selenium.common.exceptions",
-        "description": "selenium.common.exceptions",
-        "isExtraImport": true,
-        "detail": "selenium.common.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "NoSuchElementException",
-        "importPath": "selenium.common.exceptions",
-        "description": "selenium.common.exceptions",
-        "isExtraImport": true,
-        "detail": "selenium.common.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "TimeoutException",
         "importPath": "selenium.common.exceptions",
         "description": "selenium.common.exceptions",
         "isExtraImport": true,
@@ -442,30 +335,6 @@
         "description": "selenium.webdriver.common.alert",
         "isExtraImport": true,
         "detail": "selenium.webdriver.common.alert",
-        "documentation": {}
-    },
-    {
-        "label": "Alert",
-        "importPath": "selenium.webdriver.common.alert",
-        "description": "selenium.webdriver.common.alert",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.common.alert",
-        "documentation": {}
-    },
-    {
-        "label": "GeckoDriverManager",
-        "importPath": "webdriver_manager.firefox",
-        "description": "webdriver_manager.firefox",
-        "isExtraImport": true,
-        "detail": "webdriver_manager.firefox",
-        "documentation": {}
-    },
-    {
-        "label": "GeckoDriverManager",
-        "importPath": "webdriver_manager.firefox",
-        "description": "webdriver_manager.firefox",
-        "isExtraImport": true,
-        "detail": "webdriver_manager.firefox",
         "documentation": {}
     },
     {
@@ -535,6 +404,30 @@
         "documentation": {}
     },
     {
+        "label": "Workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
         "label": "PatternFill",
         "importPath": "openpyxl.styles",
         "description": "openpyxl.styles",
@@ -548,6 +441,47 @@
         "description": "openpyxl.styles",
         "isExtraImport": true,
         "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "PatternFill",
+        "importPath": "openpyxl.styles",
+        "description": "openpyxl.styles",
+        "isExtraImport": true,
+        "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "PatternFill",
+        "importPath": "openpyxl.styles",
+        "description": "openpyxl.styles",
+        "isExtraImport": true,
+        "detail": "openpyxl.styles",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -556,6 +490,1166 @@
         "description": "google.colab",
         "isExtraImport": true,
         "detail": "google.colab",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(\n        EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(\n        By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 120).until(\n            EC.presence_of_element_located(\n                (By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52941'  # jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "description": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "Anterior_scrips.04_10_SIN-FIRMA_PROCESA",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 39702\n# teermino en folio  1605213\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "RANGO_FIN = 39702\n# teermino en folio  1605213\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = r'/Users/arturo/Documents/EXTINTOS_SCRIP_ UPDATE/Libro 2_Extinguir.xlsx'",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = r'/Users/arturo/Documents/EXTINTOS_SCRIP_ UPDATE/Libro 2_Extinguir.xlsx'\n# Leer la hoja 'FINAL' del archivo Excel\ndf = pd.read_excel(file_path, sheet_name='FINAL')\n# Verificar si las columnas 'FOLIOREAL' y 'CARGA' existen\nif 'FOLIOREAL' in df.columns and 'CARGA' in df.columns:\n    # Filtrar las filas por el rango de 'CARGA'\n    df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n    # Cargar el archivo Excel para modificarlo",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "file_path = r'/Users/arturo/Documents/EXTINTOS_SCRIP_ UPDATE/Libro 2_Extinguir.xlsx'\n# Leer la hoja 'FINAL' del archivo Excel\ndf = pd.read_excel(file_path, sheet_name='FINAL')\n# Verificar si las columnas 'FOLIOREAL' y 'CARGA' existen\nif 'FOLIOREAL' in df.columns and 'CARGA' in df.columns:\n    # Filtrar las filas por el rango de 'CARGA'\n    df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n    # Cargar el archivo Excel para modificarlo\n    wb = load_workbook(file_path)\n    ws = wb['FINAL']",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name='FINAL')\n# Verificar si las columnas 'FOLIOREAL' y 'CARGA' existen\nif 'FOLIOREAL' in df.columns and 'CARGA' in df.columns:\n    # Filtrar las filas por el rango de 'CARGA'\n    df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n    # Cargar el archivo Excel para modificarlo\n    wb = load_workbook(file_path)\n    ws = wb['FINAL']\n    # Relleno para las celdas que se actualizarán\n    highlight_fill = PatternFill(start_color=\"FFFF00\", end_color=\"FFFF00\", fill_type=\"solid\")",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_A_EXTINTOS_PREDIO_",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 5\n# Conexión a la base de datos PostgreSQL\ntry:\n    conn = psycopg2.connect(\n        dbname=\"erpp\",\n        user=\"angel\",\n        password=\"ErppHgo&2024\",\n        host=\"100.66.168.122\",\n        port=\"5432\"",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "peekOfCode": "RANGO_FIN = 5\n# Conexión a la base de datos PostgreSQL\ntry:\n    conn = psycopg2.connect(\n        dbname=\"erpp\",\n        user=\"angel\",\n        password=\"ErppHgo&2024\",\n        host=\"100.66.168.122\",\n        port=\"5432\"\n    )",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "peekOfCode": "file_path = r'/Users/arturo/Documents/EXTINTOS_SCRIP_ UPDATE/Hazaelfolios.xlsx'\n# Leer la hoja 'Masivos' del archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Masivos')\n# Verificar si las columnas 'FOLIOREAL' y 'CARGA' existen\nif 'FOLIOREAL' in df.columns and 'CARGA' in df.columns:\n    # Filtrar las filas por el rango de 'CARGA'\n    df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n    # Lista de columnas a tomar de Excel y verificar en la base de datos\n    columnas_excel = [\n        'manzana', 'no_lote', 'nombre_frac_o_condo', 'num_ext', 'num_int',",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "description": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name='Masivos')\n# Verificar si las columnas 'FOLIOREAL' y 'CARGA' existen\nif 'FOLIOREAL' in df.columns and 'CARGA' in df.columns:\n    # Filtrar las filas por el rango de 'CARGA'\n    df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n    # Lista de columnas a tomar de Excel y verificar en la base de datos\n    columnas_excel = [\n        'manzana', 'no_lote', 'nombre_frac_o_condo', 'num_ext', 'num_int',\n        'superficie', 'superficie_m2', 'vialidad', 'municipio_id', 'tipo_asent_id', 'tipo_inmueble_id'\n    ]",
+        "detail": "Anterior_scrips.16_10_SCRIP_UPDATE_DATOS_NA_PREDIO",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_datos_entrada",
+        "kind": 2,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "iniciar_sesion",
+        "kind": 2,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52969' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "description": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
+        "detail": "Anterior_scrips.20_10_PROCESAR_ANTE_52969",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_prelacion",
+        "kind": 2,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "prelacion_ante_consultar_documento",
+        "kind": 2,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_predio",
+        "kind": 2,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_folio",
+        "kind": 2,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df['no_folio']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df['indicador_duplicado']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df['cantidad_duplicados']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df['predio_id']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "df['nuevo_folio']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "wb",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "blue_fill",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "red_fill",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "no_folio_column",
+        "kind": 5,
+        "importPath": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "description": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
+        "detail": "Anterior_scrips.CONSULTA_FOLIOS_BY_ENTRADA",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded",
+        "kind": 5,
+        "importPath": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "uploaded = files.upload()\n# Seleccionar el archivo subido\nfile_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)",
+        "detail": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "file_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()",
+        "detail": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]",
+        "detail": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "output_folder",
+        "kind": 5,
+        "importPath": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "output_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')",
+        "detail": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "usuarios",
+        "kind": 5,
+        "importPath": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "description": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "peekOfCode": "usuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')\n    writer = pd.ExcelWriter(output_file, engine='xlsxwriter')\n    # Filtrar por cada entrada y crear una hoja por cada entrada\n    entradas = df_usuario['ENTRADA'].unique()\n    for entrada in entradas:",
+        "detail": "Anterior_scrips.DIVIDE_ACTIVOS_USUARIOS_COLAB",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_antecedente",
+        "kind": 2,
+        "importPath": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
+        "detail": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
+        "detail": "Anterior_scrips.ID_ANTECE_CONSULTA_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "cursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "datos_anteriores",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "datos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "datos_actualizados",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "datos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero\n    INSCRIPCION = row['INSCRIPCION']  # Columna 'INSCRIPCION'",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_anteriores",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_anteriores = pd.DataFrame(datos_anteriores)\ndf_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_actualizados",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "df_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "output_file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "description": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "peekOfCode": "output_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
+        "detail": "Anterior_scrips.ID_ANTECE_UPDATE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "SHEET_URL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS copy",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_prelacion",
+        "kind": 2,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "prelacion_ante_consultar_documento",
+        "kind": 2,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "consultar_predio",
+        "kind": 2,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "actualizar_folio",
+        "kind": 2,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_FILTRO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_INICIO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_FIN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df_filtrado",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['no_folio']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['indicador_duplicado']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['cantidad_duplicados']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['predio_id']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "df['nuevo_folio']",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "wb",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "blue_fill",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "red_fill",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "no_folio_column",
+        "kind": 5,
+        "importPath": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "description": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
+        "detail": "Anterior_scrips.UPTADE_DUPLICADOS",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'\n        for index in range(1, cantidad_filas + 1):\n            intentos = 0",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "download_file",
+        "kind": 2,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "def download_file():\n    sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\n    response = requests.get(sheet_url)\n    if response.status_code == 200:\n        excel_data = response.content\n        # Leer el archivo Excel usando Pandas\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        print(\"Archivo Excel cargado con éxito\")\n        # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52968'\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "TOMO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "LIBRO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "VOLUMEN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "INSCRIPCION",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "INSCRIPCION = ''\nRANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_INICIAL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "RANGO_CARGA_INICIAL =     43845          # 346\nRANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_FINALIZAR",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "RANGO_CARGA_FINALIZAR = 43956\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___final___52968",
+        "documentation": {}
+    },
+    {
+        "label": "realizar_acciones",
+        "kind": 2,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(\n            By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        if os.path.exists(archivo_json):\n            with open(archivo_json, 'r') as f:",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "download_file",
+        "kind": 2,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "def download_file():\n    sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\n    response = requests.get(sheet_url)\n    if response.status_code == 200:\n        excel_data = response.content\n        # Leer el archivo Excel usando Pandas\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        print(\"Archivo Excel cargado con éxito\")\n        # Asegurarnos de que la columna 'ENTRADA' sea de tipo string",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "ENTRADA_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "ENTRADA_CONSTANTE = '52941'\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\narchivo_json = 'control_filas.json'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_CER",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\narchivo_json = 'control_filas.json'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "RUTA_CERTIFICADO_KEY",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\narchivo_json = 'control_filas.json'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "archivo_json",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "archivo_json = 'control_filas.json'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "CORREO_CONSTANTE",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "TOMO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "LIBRO",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "VOLUMEN",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "INSCRIPCION",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "INSCRIPCION = ''\nRANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_INICIAL",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "RANGO_CARGA_INICIAL = 38054# 346\nRANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(\n            By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "RANGO_CARGA_FINALIZAR",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "RANGO_CARGA_FINALIZAR = 38313\nMAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(\n            By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_INTENTOS",
+        "kind": 5,
+        "importPath": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "description": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
+        "peekOfCode": "MAX_INTENTOS = 4\n# Si el archivo existe, cargar el estado de control, si no, inicializar todos como no procesados\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(\n            By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
+        "detail": "Anterior_scrips.___ALTA_&_PROCESA___SIN_FIRMA",
         "documentation": {}
     },
     {
@@ -637,1095 +1731,6 @@
         "description": "venv.Scripts.activate_this",
         "peekOfCode": "sys.prefix = base",
         "detail": "venv.Scripts.activate_this",
-        "documentation": {}
-    },
-    {
-        "label": "cargar_datos_entrada",
-        "kind": 2,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "iniciar_sesion",
-        "kind": 2,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(\n        EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(\n        By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "realizar_acciones",
-        "kind": 2,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 120).until(\n            EC.presence_of_element_located(\n                (By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_CONSTANTE",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "ENTRADA_CONSTANTE = '53003'  # jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_CER",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_KEY",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "CORREO_CONSTANTE",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "LOGIN_URL",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_INTENTOS",
-        "kind": 5,
-        "importPath": "04_10_SIN-FIRMA_PROCESA",
-        "description": "04_10_SIN-FIRMA_PROCESA",
-        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data),\n                           sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
-        "detail": "04_10_SIN-FIRMA_PROCESA",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_CONSTANTE",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "ENTRADA_CONSTANTE = '' #jrodriguez_scontino@ifreh.gob.mx\nRANGO_CARGA_INICIAL =    0      \nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_CARGA_INICIAL",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "RANGO_CARGA_INICIAL =    0      \nRANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_CARGA_FINALIZAR",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "RANGO_CARGA_FINALIZAR =  0\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "CORREO_CONSTANTE",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "YEAR",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "TOMO",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "LIBRO",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "VOLUMEN",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "INSCRIPCION",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "INSCRIPCION = ''\n# Paso 1: Descargar el archivo de Google Sheets en formato Excel\nsheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "sheet_url",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nresponse = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "08_10_ALTA_ANTECENTE_",
-        "description": "08_10_ALTA_ANTECENTE_",
-        "peekOfCode": "response = requests.get(sheet_url)\nif response.status_code == 200:\n    excel_data = response.content\n    # Leer el archivo Excel usando Pandas\n    df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n    print(\"Archivo Excel cargado con éxito\")\n    # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n    df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n    # Filtrar las filas donde la columna 'ENTRADA' sea igual a '52867'\n    filtered_df = df[df['ENTRADA'] == ENTRADA_CONSTANTE]",
-        "detail": "08_10_ALTA_ANTECENTE_",
-        "documentation": {}
-    },
-    {
-        "label": "cargar_datos_entrada",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "iniciar_sesion",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "realizar_acciones",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_CONSTANTE",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "ENTRADA_CONSTANTE = '52992' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_CER",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_KEY",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "CORREO_CONSTANTE",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "LOGIN_URL",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_INTENTOS",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52992",
-        "description": "09_10_PROCESAR_ANTE_52992",
-        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
-        "detail": "09_10_PROCESAR_ANTE_52992",
-        "documentation": {}
-    },
-    {
-        "label": "cargar_datos_entrada",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "def cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:\n            if not filtered_df.empty:\n                # Almacenar el primer valor de la columna de correos",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "iniciar_sesion",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "def iniciar_sesion(driver, correo, password):\n    driver.get(LOGIN_URL)\n    WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.ID, 'username')))\n    driver.find_element(By.ID, 'username').send_keys(correo)\n    driver.find_element(By.ID, 'password').send_keys(password)\n    time.sleep(3)\n    driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/login-form/div/div/div[3]/form/button').click()\n    print(\"Inicio de sesión realizado con éxito\")\n    # Esperar un máximo de 10 segundos para verificar si aparece el enlace de desbloqueo\n    try:",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "realizar_acciones",
-        "kind": 2,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        # print(f\"Procesando fila {index}...\")\n        tabla = WebDriverWait(driver, 240).until(\n            EC.presence_of_element_located((By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table'))\n        )        \n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_CONSTANTE",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "ENTRADA_CONSTANTE = '52994' #jrodriguez_scontino@ifreh.gob.mx\nRUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_CER",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_KEY",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\rigoberto diaz\\OneDrive\\Documentos\\SCRIP_\\CRIPS__\\firmas\\MOPJ7808311Y2.key'\n# Configuración de constantes\nCORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "CORREO_CONSTANTE",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "CORREO_CONSTANTE = ''  # Inicializar CORREO_CONSTANTE\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\nLOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "LOGIN_URL",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "LOGIN_URL = \"https://ifreh-s.hidalgo.gob.mx:8443/erpp/#/login\"\nMAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_INTENTOS",
-        "kind": 5,
-        "importPath": "09_10_PROCESAR_ANTE_52994",
-        "description": "09_10_PROCESAR_ANTE_52994",
-        "peekOfCode": "MAX_INTENTOS = 4\n# Función para cargar y filtrar datos del archivo Excel\ndef cargar_datos_entrada(entrada):\n    response = requests.get(SHEET_URL)\n    if response.status_code == 200:\n        excel_data = response.content\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()\n        filtered_df = df[df['ENTRADA'] == entrada]\n        if not filtered_df.empty:",
-        "detail": "09_10_PROCESAR_ANTE_52994",
-        "documentation": {}
-    },
-    {
-        "label": "consultar_prelacion",
-        "kind": 2,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "prelacion_ante_consultar_documento",
-        "kind": 2,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "consultar_predio",
-        "kind": 2,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "actualizar_folio",
-        "kind": 2,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_FILTRO",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_INICIO",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_FIN",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df_filtrado",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df['no_folio']",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df['indicador_duplicado']",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df['cantidad_duplicados']",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df['predio_id']",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "df['nuevo_folio']",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "wb",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "ws",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "blue_fill",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "red_fill",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "no_folio_column",
-        "kind": 5,
-        "importPath": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "description": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
-        "detail": "CONSULTA_FOLIOS_BY_ENTRADA",
-        "documentation": {}
-    },
-    {
-        "label": "uploaded",
-        "kind": 5,
-        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "peekOfCode": "uploaded = files.upload()\n# Seleccionar el archivo subido\nfile_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)",
-        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "peekOfCode": "file_path = list(uploaded.keys())[0]\n# file_path = '/content/Captura Insercion Masiva (1).xlsx'\n# Cargar el archivo Excel\ndf = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()",
-        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "peekOfCode": "df = pd.read_excel(file_path, sheet_name='Activos')\n# Crear carpeta para almacenar los excels si no existe\noutput_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]",
-        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "documentation": {}
-    },
-    {
-        "label": "output_folder",
-        "kind": 5,
-        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "peekOfCode": "output_folder = 'output_excels'\nif not os.path.exists(output_folder):\n    os.makedirs(output_folder)\n# Filtrar por cada usuario basado en el campo de USUARIO\nusuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')",
-        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "documentation": {}
-    },
-    {
-        "label": "usuarios",
-        "kind": 5,
-        "importPath": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "description": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "peekOfCode": "usuarios = df['USUARIO'].unique()\nfor usuario in usuarios:\n    # Filtrar los datos por el USUARIO\n    df_usuario = df[df['USUARIO'] == usuario]\n    # Crear un archivo Excel para cada usuario en la carpeta 'output_excels'\n    output_file = os.path.join(output_folder, f'{usuario}.xlsx')\n    writer = pd.ExcelWriter(output_file, engine='xlsxwriter')\n    # Filtrar por cada entrada y crear una hoja por cada entrada\n    entradas = df_usuario['ENTRADA'].unique()\n    for entrada in entradas:",
-        "detail": "DIVIDE_ACTIVOS_USUARIOS_COLAB",
-        "documentation": {}
-    },
-    {
-        "label": "obtener_antecedente",
-        "kind": 2,
-        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "peekOfCode": "def obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"\n        ) as conn:\n            with conn.cursor() as cursor:",
-        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_",
-        "kind": 5,
-        "importPath": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "description": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "peekOfCode": "ENTRADA_ = 52879\n# Función para obtener los datos desde la base de datos y exportar a Excel\ndef obtener_antecedente(consecutivo, anio):\n    try:\n        with psycopg2.connect(\n            dbname=\"erpp\",\n            user=\"angel\",\n            password=\"ErppHgo&2024\",\n            host=\"100.66.168.122\",\n            port=\"5432\"",
-        "detail": "ID_ANTECE_CONSULTA_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_INICIO",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_FIN",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "cursor = conn.cursor()\n# Ruta del archivo Excel\nfile_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/predios_con_antecedentes_52879UPDATE.xlsx'\n# Cargar el archivo Excel usando Pandas\ndf = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "df = pd.read_excel(file_path)\n# Filtrar el DataFrame según los criterios del rango en la columna 'CARGA'\ndf_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df_filtrado",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Crear listas para almacenar los datos antiguos y actualizados\ndatos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "datos_anteriores",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "datos_anteriores = []\ndatos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "datos_actualizados",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "datos_actualizados = []\n# Iterar sobre las filas filtradas\nfor index, row in df_filtrado.iterrows():\n    # Extraer los valores necesarios del Excel\n    anio = int(row['AÑO'])  # Convertir a entero para evitar el .0\n    volumen = int(row['VOLUMEN'])  # Convertir a entero\n    secciones_por_oficina_id = 55  # Asumiendo un valor fijo para la oficina\n    libro_bis = 0  # Asumimos valor fijo 0 para 'libro_bis'\n    num_libro = int(row['TOMO'])  # Convertir a entero\n    INSCRIPCION = row['INSCRIPCION']  # Columna 'INSCRIPCION'",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df_anteriores",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "df_anteriores = pd.DataFrame(datos_anteriores)\ndf_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df_actualizados",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "df_actualizados = pd.DataFrame(datos_actualizados)\n# Guardar los DataFrames en un archivo Excel con dos hojas\noutput_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "output_file_path",
-        "kind": 5,
-        "importPath": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "description": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "peekOfCode": "output_file_path = '/Users/arturo/Documents/SCRIP_ UPDATE_DUPLICADO/UPDATEpredios_con_antsultas_Libro_Prelacion.xlsx'\nwith pd.ExcelWriter(output_file_path) as writer:\n    df_anteriores.to_excel(writer, sheet_name='Datos Anteriores', index=False)\n    df_actualizados.to_excel(writer, sheet_name='Datos Actualizados', index=False)\n# Cerrar la conexión a la base de datos\ncursor.close()\nconn.close()\nprint(f\"Los resultados se han guardado en {output_file_path}\")",
-        "detail": "ID_ANTECE_UPDATE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_FILTRO",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "ENTRADA_FILTRO = 52881\n# URL del archivo Google Sheets modificado para exportar como Excel\nSHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "SHEET_URL",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "SHEET_URL = \"https://docs.google.com/spreadsheets/d/1ZdZnlu78HdxVv_zh8hw4KUQLBWnjpHdA/export?format=xlsx\"\n# Descargar el archivo Excel desde la URL\nresponse = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS copy",
-        "description": "UPTADE_DUPLICADOS copy",
-        "peekOfCode": "response = requests.get(SHEET_URL)\n# Verificar si la descarga fue exitosa\nif response.status_code == 200:\n    # Leer el archivo Excel directamente desde la memoria utilizando BytesIO\n    df = pd.read_excel(BytesIO(response.content), sheet_name=str(ENTRADA_FILTRO))\n    # Verificar el contenido de la columna 'predio_id'\n    print(\"Valores únicos en 'predio_id':\")\n    print(df['predio_id'].unique())  # Para revisión de valores\n    # ---- FILTRO 1: Predio no encontrado ----\n    filtro_1 = (df['no_folio'] == 'Predio no encontrado') & \\",
-        "detail": "UPTADE_DUPLICADOS copy",
-        "documentation": {}
-    },
-    {
-        "label": "consultar_prelacion",
-        "kind": 2,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "def consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")\n    return resultado if resultado else None\n# Función para consultar en la tabla `prelacion_ante` con parámetros adicionales",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "prelacion_ante_consultar_documento",
-        "kind": 2,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "def prelacion_ante_consultar_documento(prelacion_id, documento, anio, libro, volumen):\n    consulta = \"\"\"\n        SELECT * FROM prelacion_ante pa \n        WHERE prelacion_id = %s AND documento = %s AND anio = %s AND libro = %s AND volumen = %s;\n    \"\"\"\n    cursor.execute(consulta, (prelacion_id, documento, anio, libro, volumen))\n    resultados = cursor.fetchall()\n    print(f\"Consulta documento: {consulta} con valores ({prelacion_id}, {documento}, {anio}, {libro}, {volumen})\")\n    # Si hay más de un resultado, se considera duplicado\n    if len(resultados) > 1:",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "consultar_predio",
-        "kind": 2,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "def consultar_predio(predio_id):\n    consulta = \"\"\"\n        SELECT id, no_folio FROM predio WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (predio_id,))\n    resultado = cursor.fetchone()\n    print(f\"Consulta predio: {consulta} con valor predio_id = {predio_id}\")\n    return resultado if resultado else None\n# Función para actualizar el campo 'no_folio' en la tabla `predio`\ndef actualizar_folio(predio_id, new_folio_excel):",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "actualizar_folio",
-        "kind": 2,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "def actualizar_folio(predio_id, new_folio_excel):\n    consulta = \"\"\"\n        UPDATE predio \n        SET no_folio = %s\n        WHERE id = %s;\n    \"\"\"\n    cursor.execute(consulta, (new_folio_excel, predio_id))\n    conn.commit()\n    print(f\"Update predio: {consulta} con valores (new_folio_excel = {new_folio_excel}, predio_id = {predio_id})\")\n# Filtrar el DataFrame según los criterios usando 'CARGA' en lugar de 'CONSECUTIVO'",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_FILTRO",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "ENTRADA_FILTRO = 52872\nRANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_INICIO",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "RANGO_INICIO = 1\nRANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_FIN",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "RANGO_FIN = 3\n# Conexión a la base de datos PostgreSQL\nconn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "conn",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "conn = psycopg2.connect(\n    dbname=\"erpp\",\n    user=\"angel\",\n    password=\"ErppHgo&2024\",\n    host=\"100.66.168.122\",\n    port=\"5432\"\n)\ncursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "cursor",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "cursor = conn.cursor()\n# Cargar el archivo Excel\nfile_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "file_path",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "file_path = '/Users/hazael/Documents/SCRIP_ UPDATE/RIGOFOLIOSBUENO.xlsx'\ndf = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df = pd.read_excel(file_path, sheet_name=str(ENTRADA_FILTRO))\n# Función para consultar la entrada en la tabla `prelacion`\ndef consultar_prelacion(consecutivo, anio):\n    consulta = \"\"\"\n        SELECT * FROM prelacion p \n        WHERE p.consecutivo = %s AND anio = %s;\n    \"\"\"\n    cursor.execute(consulta, (consecutivo, anio))\n    resultado = cursor.fetchall()\n    print(f\"Consulta prelacion: {consulta} con valores ({consecutivo}, {anio})\")",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df_filtrado",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df_filtrado = df[(df['CARGA'] >= RANGO_INICIO) & (df['CARGA'] <= RANGO_FIN)]\n# Imprimir las columnas del Excel\nprint(\"Columnas del archivo Excel:\", df.columns)\n# Crear una nueva columna para 'no_folio', 'indicador_duplicado' y 'cantidad_duplicados' en el DataFrame\ndf['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df['no_folio']",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df['no_folio'] = None\ndf['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df['indicador_duplicado']",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df['indicador_duplicado'] = None\ndf['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df['cantidad_duplicados']",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df['cantidad_duplicados'] = None\ndf['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df['predio_id']",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df['predio_id'] = None  # Nueva columna para guardar el predio_id\ndf['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "df['nuevo_folio']",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "df['nuevo_folio'] = None  # Nueva columna para el nuevo folio\nfor index, row in df_filtrado.iterrows():\n    indicador_duplicado = \"Sin duplicado\"\n    cantidad_duplicados = 0\n    prelacion = consultar_prelacion(ENTRADA_FILTRO, '2024')\n    print(\"prelacion-----\", prelacion)\n    if prelacion:\n        prelacion_id = prelacion[0][0]\n        documento = str(row['INSCRIPCION'])\n        libro = str(row['TOMO'])",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "wb",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "wb = load_workbook(file_path)\nws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "ws",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "ws = wb[str(ENTRADA_FILTRO)]\n# Crear un relleno de color para los valores encontrados (color azul claro)\nblue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "blue_fill",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "blue_fill = PatternFill(start_color=\"ADD8E6\", end_color=\"ADD8E6\", fill_type=\"solid\")\n# Crear un relleno de color para los valores no encontrados (color rojo claro)\nred_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "red_fill",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "red_fill = PatternFill(start_color=\"FFC7CE\", end_color=\"FFC7CE\", fill_type=\"solid\")\n# Buscar la columna de 'no_folio'\nno_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "no_folio_column",
-        "kind": 5,
-        "importPath": "UPTADE_DUPLICADOS",
-        "description": "UPTADE_DUPLICADOS",
-        "peekOfCode": "no_folio_column = None\nfor idx, column in enumerate(ws.iter_cols(1, ws.max_column)):\n    if column[0].value == 'no_folio':\n        no_folio_column = idx + 1  # Columna comienza en 1\n        break\n# Aplicar color a las celdas en la columna \"no_folio\"\nif no_folio_column:\n    for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=no_folio_column, max_col=no_folio_column):\n        for cell in row:\n            if cell.value in [\"Predio no encontrado\", \"Antecedente no encontrado\", \"Prelacion no encontrada\"]:",
-        "detail": "UPTADE_DUPLICADOS",
-        "documentation": {}
-    },
-    {
-        "label": "realizar_acciones",
-        "kind": 2,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "def realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'\n        for index in range(1, cantidad_filas + 1):\n            intentos = 0",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "download_file",
-        "kind": 2,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "def download_file():\n    sheet_url = \"https://docs.google.com/spreadsheets/d/1m2wOgUVjvaYiCRomQxD1WBEElKCHC8zu/export?format=xlsx\"\n    response = requests.get(sheet_url)\n    if response.status_code == 200:\n        excel_data = response.content\n        # Leer el archivo Excel usando Pandas\n        df = pd.read_excel(BytesIO(excel_data), sheet_name='Activos', engine='openpyxl')\n        print(\"Archivo Excel cargado con éxito\")\n        # Asegurarnos de que la columna 'ENTRADA' sea de tipo string\n        df['ENTRADA'] = df['ENTRADA'].astype(str).str.strip()",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "ENTRADA_CONSTANTE",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "ENTRADA_CONSTANTE = '52931'\nRUTA_CERTIFICADO_CER = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_CER",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "RUTA_CERTIFICADO_CER = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.cer'\nRUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "RUTA_CERTIFICADO_KEY",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "RUTA_CERTIFICADO_KEY = r'C:\\Users\\jjgon\\Documents\\Python Scripts\\Script_2\\firmas\\MOPJ7808311Y2.key'\nCORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "CORREO_CONSTANTE",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "CORREO_CONSTANTE = ''  # Initialize CORREO_CONSTANTE\nYEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "YEAR",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "YEAR = ''\nTOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "TOMO",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "TOMO = ''\nLIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "LIBRO",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "LIBRO = ''\nVOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "VOLUMEN",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "VOLUMEN = ''\nINSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "INSCRIPCION",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "INSCRIPCION = ''\nRANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_CARGA_INICIAL",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "RANGO_CARGA_INICIAL = 35051 # 346\nRANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "RANGO_CARGA_FINALIZAR",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "RANGO_CARGA_FINALIZAR = 35343\nMAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")",
-        "detail": "___ALTA_&_PROCESA___final",
-        "documentation": {}
-    },
-    {
-        "label": "MAX_INTENTOS",
-        "kind": 5,
-        "importPath": "___ALTA_&_PROCESA___final",
-        "description": "___ALTA_&_PROCESA___final",
-        "peekOfCode": "MAX_INTENTOS = 4\n# Función para realizar acciones posteriores al inicio de sesión\ndef realizar_acciones(driver):\n    try:\n        # Localizar la tabla y las filas dentro de ella\n        tabla = driver.find_element(By.XPATH, '/html/body/jhi-main/div/div/jhi-home/erpp-tabs/erpp-tab[3]/div/cyvf/div/div[2]/div/div[2]/antecedente-prelacion/div[1]/table')\n        filas = tabla.find_elements(By.XPATH, './tbody/tr')\n        cantidad_filas = len(filas)\n        print(f\"Cantidad de filas en la tabla: {cantidad_filas}\")\n        # Iterar sobre las filas para encontrar el checkbox y el botón 'Procesar'",
-        "detail": "___ALTA_&_PROCESA___final",
         "documentation": {}
     }
 ]
